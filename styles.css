@@ -3,13 +3,13 @@
   src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
 }
 
-body {
-  font-family: HankenGrotesk;
+* {
   margin: 0;
+  font-family: HankenGrotesk;
 }
 
-p, h3, h2 {
-  margin: 0;
+body {
+  min-height: 100vh;
 }
 
 .box-1 {
@@ -139,18 +139,20 @@ p, h3, h2 {
 }
 
 .grid {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   display: grid;
   grid-template-columns: 1fr;
 }
 
 /*for desktop*/
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 525px) {
+  body {
+    display: grid;
+    place-items: center;
+  }
+
   .grid {
     display: grid;
+    min-width: 525px;
     max-width: 652px;
     grid-template-columns: 1fr 1fr; 
     box-shadow: 0 20px 11px -9px hsla(224, 30%, 27%, 20%);

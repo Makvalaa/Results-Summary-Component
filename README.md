@@ -30,9 +30,7 @@ Users should be able to:
 ![mobile view](Screenshot-mobile.jpg)
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL:(https://makvalaa.github.io/Results-Summary-Component/)
 
 ## My process
 
