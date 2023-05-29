@@ -30,7 +30,7 @@ Users should be able to:
 ![mobile view](Screenshot-mobile.jpg)
 
 ### Links
-- Live Site URL:(https://makvalaa.github.io/Results-Summary-Component/)
+- Live Site URL:(https://ani-menaphire.github.io/Results-Summary-Component/)
 
 ## My process
 
